@@ -1,0 +1,143 @@
+/*
+Theme Name: Gym Fitness Theme
+Theme URI:
+Author: Mudasser
+Author URI:
+Version: 1.0.0
+Description: Gym fitness theme
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import "css/variables.css";
+@import "css/header.css";
+@import "css/footer.css";
+@import "css/classespage.css";
+@import "css/gallerypage.css";
+@import "css/blogpage.css";
+@import "css/categorypage.css";
+@import "css/contactpage.css";
+@import "css/frontpage.css";
+@import "css/instructor.css";
+@import "css/testimonial.css";
+
+#map{
+    height: 300px;
+}
+
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* Now 10px = 1rem! */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: var(--secondaryFont);
+    font-size: 1.6rem;
+    line-height: 2;
+    /*background-color: var(--primary);*/
+}
+
+/** Headings **/
+h1, h2, h3 {
+    font-family: var(--mainFont);
+    margin: .5rem 0;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 6rem;
+}
+h2 {
+    font-size: 4.8rem;
+    color: var(--primary);
+}
+h3 {
+    font-size: 3.6rem;
+}
+
+/** Globals **/
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    max-width: 120rem; /** 1200px **/
+    width: 95%;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/** Utilities **/
+.text-center {
+    text-align: center;
+}
+.text-primary {
+    color: var(--primary);
+}
+.section {
+    padding: 5rem 0;
+}
+
+/*** About Us Page ***/
+.page.no-sidebar{
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.featured-image{
+    margin-bottom: 3rem;
+}
+.page h1{
+    margin-bottom: 4rem;
+}
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.button{
+    background-color: var(--primary);
+    flex: 1;
+    color: var(--white);
+    text-align: center;
+    border-radius: .5rem;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+    .button{
+        flex: 0 0 auto;
+    }
+}
+/*** Page with sidebar ***/
+
+@media (min-width: 768px) {
+    .page.with-sidebar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .with-sidebar .page-content{
+        flex: 0 0 calc(60% - 2rem);
+    }
+    .with-sidebar .sidebar{
+        flex: 0 0 calc(40% - 2rem);
+    }
+}

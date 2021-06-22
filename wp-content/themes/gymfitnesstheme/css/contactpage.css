@@ -1,0 +1,36 @@
+.wpcf7-form p{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wpcf7-form p label,
+.wpcf7-form p span{
+    flex: 0 0 100%;
+}
+.wpcf7-form p span{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wpcf7-form-control{
+    flex: 0 0 100%;
+    border: 1px solid var(--lightGray);
+    padding: 1rem;
+}
+.wpcf7-submit{
+    background-color: var(--primary);
+    font-size: 2rem;
+    font-family: var(--mainFont);
+    color: var(--white);
+    padding: 1.2rem;
+}
+.wpcf7-submit:hover{
+    cursor: pointer;
+}
+.wpcf7 form.invalid .wpcf7-response-output{
+    background-color: red;
+    color: var(--white);
+    border: none;
+    text-align: center;
+}
+div.wpcf7 .ajax-loader{
+    background-repeat: no-repeat;
+}

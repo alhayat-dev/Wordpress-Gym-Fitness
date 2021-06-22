@@ -1,0 +1,28 @@
+.post-categories{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.post-categories li{
+    margin-right: 2rem;
+}
+.post-categories li:last-of-type{
+    margin-right: 0;
+}
+.post-categories li a{
+    color: var(--white);
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+    background-color: var(--primary);
+    font-size: 2.2rem;
+    font-family: var(--mainFont);
+}
+@media (min-width: 786px) {
+    .post-categories{
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        z-index: 10;
+        margin-top: 0;
+    }
+}

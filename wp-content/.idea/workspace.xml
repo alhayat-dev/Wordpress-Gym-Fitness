@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5ecd2bdc-7dc2-48b2-b997-47efc5ba2132" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="DrupalConfiguration">
+    <drupalPath />
+  </component>
+  <component name="JoomlaConfiguration">
+    <joomlaConfigPath />
+    <joomlaPath />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+    <include_path>
+      <path value="$PROJECT_DIR$/.." />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1i0hdkaOjFoc3Gtqls3DXSGQM3j" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../swiftotter-frontend" />
+    <property name="settings.editor.selected.configurable" value="settings.php.frameworks" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/gymfitnesstheme/js" />
+      <recent name="$PROJECT_DIR$/themes/gymfitnesstheme/js/lib" />
+      <recent name="$PROJECT_DIR$/themes/gymfitnesstheme/css/lib" />
+      <recent name="$PROJECT_DIR$/themes/gymfitnesstheme" />
+      <recent name="$PROJECT_DIR$/themes/gymfitnesstheme/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/gymfitnesstheme/js" />
+      <recent name="$PROJECT_DIR$/themes/gymfitnesstheme/css" />
+      <recent name="$PROJECT_DIR$/themes/gymfitnesstheme/images" />
+      <recent name="$PROJECT_DIR$/themes/gymfitnesstheme/js/lib" />
+      <recent name="$PROJECT_DIR$/themes/gymfitnesstheme/css/lib" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ecd2bdc-7dc2-48b2-b997-47efc5ba2132" name="Default Changelist" comment="" />
+      <created>1601050509124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601050509124</updated>
+      <workItem from="1601050511338" duration="24852000" />
+      <workItem from="1601485841711" duration="18545000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="266" y="57" width="824" height="691" key="#CLI_Interpreters" timestamp="1601064191916">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="266" y="57" width="824" height="691" key="#CLI_Interpreters/0.27.1366.741@0.27.1366.741" timestamp="1601064191916" />
+    <state x="328" y="27" width="700" height="741" key="#PHP" timestamp="1602095579256">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="328" y="27" width="700" height="741" key="#PHP/0.27.1366.741@0.27.1366.741" timestamp="1602095579256" />
+    <state x="347" y="203" width="652" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602096667329">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="347" y="203" width="652" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1602096667329" />
+    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602414614687">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1602414614687" />
+    <state x="353" y="117" width="649" height="568" key="NewPhpClassDialog" timestamp="1601398222200">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="353" y="117" width="649" height="568" key="NewPhpClassDialog/0.27.1366.741@0.27.1366.741" timestamp="1601398222200" />
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1601850736792">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1601850736792" />
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1601064266452">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1601064266452" />
+    <state x="0" y="27" width="1027" height="741" key="find.popup" timestamp="1601828697084">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="0" y="27" width="1027" height="741" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1601828697084" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>$PROJECT_DIR$/..</wordpressPath>
+  </component>
+</project>

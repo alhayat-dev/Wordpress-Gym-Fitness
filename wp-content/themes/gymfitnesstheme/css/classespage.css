@@ -1,0 +1,105 @@
+.classes-list{
+    margin-top: 4rem;
+}
+
+@media (min-width: 768px) {
+    .classes-list{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .card{
+        flex: 0 0 calc(50% - 2rem);
+        position: relative;
+    }
+    .gradient::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.4+0,0.65+100,0.65+100,0.65+101 */
+        background: -moz-linear-gradient(top,  rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.65) 100%, rgba(0,0,0,0.65) 101%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.65) 100%,rgba(0,0,0,0.65) 101%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.65) 100%,rgba(0,0,0,0.65) 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+    }
+}
+
+.card{
+    margin-bottom: 4rem;
+}
+.card img{
+    display: block;
+}
+.card .card-content{
+    padding: 3rem 0;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .card .card-content{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+        padding: 2rem;
+        text-align: left;
+    }
+}
+
+.card .card-content a{
+    color: var(--black);
+}
+@media  (min-width: 786px){
+    .card .card-content a{
+        color: var(--white);
+    }
+}
+.card .card-content p{
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 0;
+}
+
+/*** Single Page CSS ***/
+.content-class{
+    font-weight: 700;
+    font-family: var(--secondaryFont);
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.sidebar a{
+    color: var(--primary);
+}
+.sidebar .widget{
+    margin-bottom: 2rem;
+}
+
+.sidebar-classes-list{
+
+}
+.sidebar-class{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.sidebar-class .sidebar-widget-image{
+    flex: 0 0 30%;
+}
+.sidebar-class .class-content{
+    flex: 0 0 calc(70% - 2rem);
+}
+.sidebar-class .class-content p{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+}
+.classes-header{
+    margin-bottom: 2rem;
+}
